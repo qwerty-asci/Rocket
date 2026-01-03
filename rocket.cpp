@@ -26,7 +26,7 @@
 #define phi_max acos(-1)/3.0
 #define area 10
 
-#define FINISH_PENALIZATION -100.0
+#define FINISH_PENALIZATION -700.0
 #define steps_actualization 50
 
 
@@ -136,6 +136,7 @@ py::array_t<double> Rocket::reset(){
     w=0.0;
     t=0.0;
 
+    flag=true;
 
     py::array_t<double> arr(9);
 
@@ -218,7 +219,7 @@ py::array_t<double> Rocket::step(int action){
             check();
         }
 
-        r+=15.0/(1.0+pow(x*x+y*y,1))*abs(cos(phi));
+        r+=30.0*(1.0+t)/(1.0+pow(x*x+y*y,2))*abs(cos(phi));
 
         data[0]=x;
         data[1]=y;
@@ -229,7 +230,7 @@ py::array_t<double> Rocket::step(int action){
         data[6]=theta;
         data[7]=ignition;
         data[8]=rotation;
-        data[9]=r;
+        data[9]=flag?r:FINISH_PENALIZATION;
         data[10]=static_cast<double>(flag);
 
         // cout<<ignition<<" "<<rotation<<endl;
