@@ -43,7 +43,7 @@ private:
 
     mt19937 rng;
     uniform_real_distribution<double> rn{0,1.0};
-    uniform_int_distribution<unsigned int> rni{0,4};
+    uniform_int_distribution<unsigned int> rni{0,3};
 
 
     double x,y,phi,u,v,w,t=0.0,theta;
