@@ -51,3 +51,7 @@ $`R(t) = \frac{30(1 + t)}{1 + (x^2 + y^2)^2} \lvert \cos(\phi) \rvert`$
 If the network fails during training, a penalty reward of –700 is assigned.
 
 Each episode ends after 6000 steps, or when the conditions $`|x, y| < 10`$ and $`|\phi| < \frac{\pi}{3}`$ are satisfied.
+
+
+
+![Network controlling the rocket](animacion5.gif)
