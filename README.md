@@ -149,6 +149,6 @@ doxygen Doxyfile
 
 Then open docs/html/index.html in a browser
 
-## Result
+## Results
 
 ![Network controlling the rocket](animaciones/animacion5.gif)
