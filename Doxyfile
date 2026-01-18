@@ -1,5 +1,4 @@
 # Doxyfile 1.9.7
-
 # Proyecto
 PROJECT_NAME           = "Rocket DQN"
 PROJECT_BRIEF          = "Simulación de cohete para entrenamiento de redes neuronales DQN"
