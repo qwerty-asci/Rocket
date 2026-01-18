@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env/
+*.ipynb_checkpoints
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# C++ build artifacts
+/build/
+/*.o
+/*.so
+/*.a
+/*.dSYM/
+*.out
+*.exe
+
+# Compiled Python C extensions
+*.so
+*.dll
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Doxygen documentation
+docs/html/
+docs/latex/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
