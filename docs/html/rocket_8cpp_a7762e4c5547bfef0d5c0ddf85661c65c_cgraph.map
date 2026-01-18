@@ -1,0 +1,9 @@
+<map id="PYBIND11_MODULE" name="PYBIND11_MODULE">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,156,83"/>
+<area shape="rect" id="node2" href="$classRocket.html#a10042e3d7096df86f115a4873dd614c0" title="Reinicia el entorno con valores aleatorios." alt="" coords="212,5,319,32"/>
+<area shape="rect" id="node3" href="$classRocket.html#a5a5109a3e8b71b75da9f12910d740293" title="Devuelve una acción aleatoria." alt="" coords="204,56,327,83"/>
+<area shape="rect" id="node4" href="$classRocket.html#aee5b20f19b1ed93d6840cb2700b06294" title="Avanza un paso de simulación dado la acción." alt="" coords="214,107,317,133"/>
+<area shape="rect" id="node5" href="$classRocket.html#afe37c8be4a5d8bc54777a6805cd2b1c0" title="Comprueba si el cohete sigue dentro del área válida y con ángulo permitido." alt="" coords="391,77,503,104"/>
+<area shape="rect" id="node6" href="$classRocket.html#a1cb536a4cdcbb5a483c76acacd4b71ea" title="Calcula las derivadas del sistema para un paso de Runge&#45;Kutta." alt="" coords="375,129,520,170"/>
+<area shape="rect" id="node7" href="$classRocket.html#ae2656c26b5fea56fadf13ede740b79cc" title="Calcula el efecto de la rotación del motor sobre el ángulo." alt="" coords="568,136,673,163"/>
+</map>

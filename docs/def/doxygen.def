@@ -1,0 +1,1578 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'classRocket';
+  cp-name   = 'Rocket';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classRocket_1a372a072f1c3a977c40938ba56202ecc6';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Rocket';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '113';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Constructor.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1aec98e33af0770c1078cd2640648a3ee3';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'ignition';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a88b5838eebeacc543af6a7787f21c0a2';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'phi';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ab8fd1b5cd2a03aea7a0a304cfe77409a';
+        sec-mem-ref-line = '62';
+        sec-mem-ref-name = 'rng';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1afca73f5842ebd05a999a1e19ea6c9c0b';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'rotation';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a71647dc2d01a4bfaed76891e69a3500a';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'theta';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a5fa351860002e15831938b88a519762b';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'u';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1a5b31d10b2c2d4d9218bc7ebf3b2834';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'v';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a9c2313e1daae5a3500beb12ab594dbde';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'w';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a0fd322b9b4b8e15910d89733cca4b450';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ade5d2d1333e70a27d96e69a165faeaf0';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'y';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classRocket_1a10042e3d7096df86f115a4873dd614c0';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+py::array_t< double >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'reset';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '115';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Reinicia el entorno con valores aleatorios.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ad93399b794b4d66f2a9af6cf53f25560';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'flag';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1aec98e33af0770c1078cd2640648a3ee3';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'ignition';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a88b5838eebeacc543af6a7787f21c0a2';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'phi';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a4a04712ae480d19d6c76840a854ad641';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'phi_0';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a5a213b47ca6607e79e5d05d362dbbd2c';
+        sec-mem-ref-line = '63';
+        sec-mem-ref-name = 'rn';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ab8fd1b5cd2a03aea7a0a304cfe77409a';
+        sec-mem-ref-line = '62';
+        sec-mem-ref-name = 'rng';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1afca73f5842ebd05a999a1e19ea6c9c0b';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'rotation';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a32db826b4e6992519db066f03404a602';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 't';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a71647dc2d01a4bfaed76891e69a3500a';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'theta';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a6b4a835e6d6d501a72ce7ad4ce709b86';
+        sec-mem-ref-line = '27';
+        sec-mem-ref-name = 'theta_max';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a5fa351860002e15831938b88a519762b';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'u';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1a5b31d10b2c2d4d9218bc7ebf3b2834';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'v';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ad7df89a850d4f90bca06ee38e42aafba';
+        sec-mem-ref-line = '28';
+        sec-mem-ref-name = 'v_0_x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a406b0c79820da9382c11a35c4e288e8e';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'v_0_y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a9c2313e1daae5a3500beb12ab594dbde';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'w';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a0fd322b9b4b8e15910d89733cca4b450';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ac211cae81e58c18eeccddfd8e9aa46dc';
+        sec-mem-ref-line = '31';
+        sec-mem-ref-name = 'x_range';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ade5d2d1333e70a27d96e69a165faeaf0';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a8c012d15f65d23939a8bcd30e28a1943';
+        sec-mem-ref-line = '32';
+        sec-mem-ref-name = 'y_range';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a7762e4c5547bfef0d5c0ddf85661c65c';
+        sec-mem-ref-line = '220';
+        sec-mem-ref-name = 'PYBIND11_MODULE';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classRocket_1aee5b20f19b1ed93d6840cb2700b06294';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+py::array_t< double >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'step';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'action';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '116';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Avanza un paso de simulación dado la acción.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1afe37c8be4a5d8bc54777a6805cd2b1c0';
+        sec-mem-ref-line = '108';
+        sec-mem-ref-name = 'check';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1af53bce34f48ba000365c0cb26e38b325';
+        sec-mem-ref-line = '37';
+        sec-mem-ref-name = 'FINISH_PENALIZATION';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ad93399b794b4d66f2a9af6cf53f25560';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'flag';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a11e4b88d04aff72b36599b1f2db0d36f';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'h';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1aec98e33af0770c1078cd2640648a3ee3';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'ignition';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a88b5838eebeacc543af6a7787f21c0a2';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'phi';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1afca73f5842ebd05a999a1e19ea6c9c0b';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'rotation';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1aa0798930ec61c71a5ebea027d6b87714';
+        sec-mem-ref-line = '38';
+        sec-mem-ref-name = 'steps_actualization';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a32db826b4e6992519db066f03404a602';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 't';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a71647dc2d01a4bfaed76891e69a3500a';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'theta';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a6b4a835e6d6d501a72ce7ad4ce709b86';
+        sec-mem-ref-line = '27';
+        sec-mem-ref-name = 'theta_max';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a5fa351860002e15831938b88a519762b';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'u';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1a5b31d10b2c2d4d9218bc7ebf3b2834';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'v';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a9c2313e1daae5a3500beb12ab594dbde';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'w';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a45814344d1130bbc572ade19e4f6dd53';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'w_theta';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a0fd322b9b4b8e15910d89733cca4b450';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ade5d2d1333e70a27d96e69a165faeaf0';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'y';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a7762e4c5547bfef0d5c0ddf85661c65c';
+        sec-mem-ref-line = '220';
+        sec-mem-ref-name = 'PYBIND11_MODULE';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classRocket_1a5a5109a3e8b71b75da9f12910d740293';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'sample';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '117';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Devuelve una acción aleatoria.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ab8fd1b5cd2a03aea7a0a304cfe77409a';
+        sec-mem-ref-line = '62';
+        sec-mem-ref-name = 'rng';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1adbf608fefcac8365ebd183f34a35b0fd';
+        sec-mem-ref-line = '64';
+        sec-mem-ref-name = 'rni';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a7762e4c5547bfef0d5c0ddf85661c65c';
+        sec-mem-ref-line = '220';
+        sec-mem-ref-name = 'PYBIND11_MODULE';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classRocket_1ae2656c26b5fea56fadf13ede740b79cc';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'rotor';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'local_time';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '76';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Calcula el efecto de la rotación del motor sobre el ángulo.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param local_time Tiempo actual
+@return Ángulo modificado por la rotación
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1afca73f5842ebd05a999a1e19ea6c9c0b';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'rotation';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a32db826b4e6992519db066f03404a602';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 't';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a71647dc2d01a4bfaed76891e69a3500a';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'theta';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a45814344d1130bbc572ade19e4f6dd53';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'w_theta';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classRocket_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'differential_ecuations_step';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 't';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'x';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'y';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'phi';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'u';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'v';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'w';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '91';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Calcula las derivadas del sistema para un paso de Runge-Kutta.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param t Tiempo actual
+@param x Posición en x
+@param y Posición en y
+@param phi Ángulo de inclinación
+@param u Velocidad en x
+@param v Velocidad en y
+@param w Velocidad angular
+@return Puntero a arreglo de derivadas {dx, dy, dphi, du, dv, dw}
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a473e3e2cb3a81e74356ab1ba384d6644';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'a';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a61b67c61dfd5c3a852e4f4ca9316f93b';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'b';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a3e97e1f74b382d4f1f4ae53bdc1abd6e';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'F_e';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a167d2c0ec9b943d55f2124f7442b2f6d';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'g';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1aec98e33af0770c1078cd2640648a3ee3';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'ignition';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ad636c98fa88e94cef34e67b46c5c59bf';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'm';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a88b5838eebeacc543af6a7787f21c0a2';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'phi';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ae2656c26b5fea56fadf13ede740b79cc';
+        sec-mem-ref-line = '76';
+        sec-mem-ref-name = 'rotor';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a32db826b4e6992519db066f03404a602';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 't';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a5fa351860002e15831938b88a519762b';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'u';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1a5b31d10b2c2d4d9218bc7ebf3b2834';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'v';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a9c2313e1daae5a3500beb12ab594dbde';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'w';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classRocket_1afe37c8be4a5d8bc54777a6805cd2b1c0';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'check';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '108';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Comprueba si el cohete sigue dentro del área válida y con ángulo permitido.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a28eaddd2dd8ad1ee68b4217c7dde0842';
+        sec-mem-ref-line = '35';
+        sec-mem-ref-name = 'area';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ad93399b794b4d66f2a9af6cf53f25560';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'flag';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a88b5838eebeacc543af6a7787f21c0a2';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'phi';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a250367a2f6340eeaeb32aef65776ed37';
+        sec-mem-ref-line = '34';
+        sec-mem-ref-name = 'phi_max';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1a0fd322b9b4b8e15910d89733cca4b450';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'rocket_8cpp_1ade5d2d1333e70a27d96e69a165faeaf0';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'y';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1ab8fd1b5cd2a03aea7a0a304cfe77409a';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+mt19937
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'rng';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '62';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Generador de números aleatorios.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a5a5109a3e8b71b75da9f12910d740293';
+        sec-mem-ref-line = '214';
+        sec-mem-ref-name = 'sample';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a5a213b47ca6607e79e5d05d362dbbd2c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+uniform_real_distribution< double >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'rn';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+{0,1.0}
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '63';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Aleatorio real.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1adbf608fefcac8365ebd183f34a35b0fd';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+uniform_int_distribution< unsigned int >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'rni';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+{0,3}
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '64';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Aleatorio discreto para acciones.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a5a5109a3e8b71b75da9f12910d740293';
+        sec-mem-ref-line = '214';
+        sec-mem-ref-name = 'sample';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a0fd322b9b4b8e15910d89733cca4b450';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'x';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1afe37c8be4a5d8bc54777a6805cd2b1c0';
+        sec-mem-ref-line = '108';
+        sec-mem-ref-name = 'check';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1ade5d2d1333e70a27d96e69a165faeaf0';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'y';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1afe37c8be4a5d8bc54777a6805cd2b1c0';
+        sec-mem-ref-line = '108';
+        sec-mem-ref-name = 'check';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a88b5838eebeacc543af6a7787f21c0a2';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'phi';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1afe37c8be4a5d8bc54777a6805cd2b1c0';
+        sec-mem-ref-line = '108';
+        sec-mem-ref-name = 'check';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a5fa351860002e15831938b88a519762b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'u';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a1a5b31d10b2c2d4d9218bc7ebf3b2834';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'v';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a9c2313e1daae5a3500beb12ab594dbde';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'w';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a32db826b4e6992519db066f03404a602';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 't';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 0.0
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1ae2656c26b5fea56fadf13ede740b79cc';
+        sec-mem-ref-line = '76';
+        sec-mem-ref-name = 'rotor';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a71647dc2d01a4bfaed76891e69a3500a';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'theta';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Estados físicos.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1ae2656c26b5fea56fadf13ede740b79cc';
+        sec-mem-ref-line = '76';
+        sec-mem-ref-name = 'rotor';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a473e3e2cb3a81e74356ab1ba384d6644';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 1.0
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a61b67c61dfd5c3a852e4f4ca9316f93b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'b';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 1.0
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1ad636c98fa88e94cef34e67b46c5c59bf';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'm';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 10.0
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a3e97e1f74b382d4f1f4ae53bdc1abd6e';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'F_e';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 130.0
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a45814344d1130bbc572ade19e4f6dd53';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'w_theta';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 2.0
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1ae2656c26b5fea56fadf13ede740b79cc';
+        sec-mem-ref-line = '76';
+        sec-mem-ref-name = 'rotor';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1a11e4b88d04aff72b36599b1f2db0d36f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+const double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'h';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 0.001
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1aec98e33af0770c1078cd2640648a3ee3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'ignition';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a1cb536a4cdcbb5a483c76acacd4b71ea';
+        sec-mem-ref-line = '91';
+        sec-mem-ref-name = 'differential_ecuations_step';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1afca73f5842ebd05a999a1e19ea6c9c0b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'rotation';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a372a072f1c3a977c40938ba56202ecc6';
+        sec-mem-ref-line = '122';
+        sec-mem-ref-name = 'Rocket';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1ae2656c26b5fea56fadf13ede740b79cc';
+        sec-mem-ref-line = '76';
+        sec-mem-ref-name = 'rotor';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classRocket_1ad93399b794b4d66f2a9af6cf53f25560';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'flag';
+      sec-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Indica si el cohete sigue dentro del área válida.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1afe37c8be4a5d8bc54777a6805cd2b1c0';
+        sec-mem-ref-line = '108';
+        sec-mem-ref-name = 'check';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'reset';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        sec-mem-ref-line = '154';
+        sec-mem-ref-name = 'step';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+  cp-fileline  = '60';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Clase que define el entorno del cohete.
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+El cohete puede recibir acciones discretas:
+- 0: No hacer nada
+- 1: Encender/apagar motor
+- 2: Rotar boquilla a la derecha
+- 3: Rotar boquilla a la izquierda
+
+Proporciona funciones para:
+- reset(): Reiniciar el entorno
+- step(action): Avanzar un paso de simulación
+- sample(): Obtener una acción aleatoria
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = 'rocket_8cpp';
+  file-name = 'rocket.cpp';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1a167d2c0ec9b943d55f2124f7442b2f6d';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'g';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+9.81
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '25';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1a6b4a835e6d6d501a72ce7ad4ce709b86';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'theta_max';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+0.523598776
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '27';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Ángulo máximo de inclinación del cohete (rad)
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1ad7df89a850d4f90bca06ee38e42aafba';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'v_0_x';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+2.0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '28';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Velocidad inicial en x.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1a406b0c79820da9382c11a35c4e288e8e';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'v_0_y';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+2.0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '29';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Velocidad inicial en y.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1a4a04712ae480d19d6c76840a854ad641';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'phi_0';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+acos(-1)/36.0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '30';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Ángulo inicial pequeño aleatorio.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1ac211cae81e58c18eeccddfd8e9aa46dc';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'x_range';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1.5
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '31';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Rango de posición inicial en x.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1a8c012d15f65d23939a8bcd30e28a1943';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'y_range';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1.5
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '32';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Rango de posición inicial en y.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1a250367a2f6340eeaeb32aef65776ed37';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'phi_max';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+acos(-1)/3.0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '34';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Límite absoluto de inclinación.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1a28eaddd2dd8ad1ee68b4217c7dde0842';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'area';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+10
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '35';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Tamaño del área de simulación.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1af53bce34f48ba000365c0cb26e38b325';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'FINISH_PENALIZATION';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+-700.0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '37';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Penalización al terminar fuera del área.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'rocket_8cpp_1aa0798930ec61c71a5ebea027d6b87714';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'steps_actualization';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+50
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      define-mem-desc-line = '38';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Número de pasos internos de Runge-Kutta.
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    typedef = {
+    typedef-member = {
+      typedef-mem-kind = 'typedef';
+      typedef-mem-id   = 'rocket_8cpp_1a225ffdf1357f3d2cf9054418b4e4f1c9';
+      typedef-mem-virt = normal;
+      typedef-mem-prot = public;
+      typedef-mem-type = <<_EnD_oF_dEf_TeXt_
+chrono::high_resolution_clock
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-name = 'myclock';
+      typedef-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      typedef-mem-desc-line = '43';
+      typedef-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      typedef-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* typedef-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'rocket_8cpp_1a7762e4c5547bfef0d5c0ddf85661c65c';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'PYBIND11_MODULE';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Rocket
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+m
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+py::mod_gil_not_used()
+_EnD_oF_dEf_TeXt_;
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+      func-mem-desc-line = '220';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'rocket_8cpp_1a10042e3d7096df86f115a4873dd614c0';
+        func-mem-ref-line = '134';
+        func-mem-ref-name = 'Rocket::reset';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'rocket_8cpp_1a5a5109a3e8b71b75da9f12910d740293';
+        func-mem-ref-line = '214';
+        func-mem-ref-name = 'Rocket::sample';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'rocket_8cpp_1aee5b20f19b1ed93d6840cb2700b06294';
+        func-mem-ref-line = '154';
+        func-mem-ref-name = 'Rocket::step';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Implementación del entorno de cohete para entrenamiento con DQN.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+Este archivo define la clase Rocket que simula un cohete controlable
+mediante acciones discretas. Se implementa la integración numérica
+mediante el método Runge-Kutta de cuarto orden. La clase está expuesta
+a Python usando pybind11.
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+  namespace = {
+    ns-id   = 'namespacestd';
+    ns-name = 'std';
+  ns-filename  = '/home/qwerty/Escritorio/personal/programacion/python/machine_learning/pytorch/rocket/cpp/rocket.cpp';
+  ns-fileline  = '41';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };

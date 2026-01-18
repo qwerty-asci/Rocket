@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Rocket DQN: Referencia del Archivo cpp/rocket.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Rocket DQN
+   </div>
+   <div id="projectbrief">Simulación de cohete para entrenamiento de redes neuronales DQN</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('rocket_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#define-members">defines</a> &#124;
+<a href="#typedef-members">typedefs</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del Archivo rocket.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implementación del entorno de cohete para entrenamiento con DQN.  
+<a href="#details">Más...</a></p>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;random&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;Python.h&gt;</code><br />
+<code>#include &lt;pybind11/pybind11.h&gt;</code><br />
+<code>#include &lt;pybind11/numpy.h&gt;</code><br />
+<code>#include &lt;climits&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Dependencia gráfica adjunta para rocket.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="rocket_8cpp__incl.png" border="0" usemap="#acpp_2rocket_8cpp" alt=""/></div>
+<map name="acpp_2rocket_8cpp" id="acpp_2rocket_8cpp">
+<area shape="rect" title="Implementación del entorno de cohete para entrenamiento con DQN." alt="" coords="503,5,619,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,85,107"/>
+<area shape="rect" title=" " alt="" coords="109,80,168,107"/>
+<area shape="rect" title=" " alt="" coords="192,80,264,107"/>
+<area shape="rect" title=" " alt="" coords="288,80,355,107"/>
+<area shape="rect" title=" " alt="" coords="379,80,458,107"/>
+<area shape="rect" title=" " alt="" coords="482,80,641,107"/>
+<area shape="rect" title=" " alt="" coords="665,80,807,107"/>
+<area shape="rect" title=" " alt="" coords="831,80,897,107"/>
+<area shape="rect" title=" " alt="" coords="922,80,990,107"/>
+<area shape="rect" title=" " alt="" coords="1014,80,1074,107"/>
+<area shape="rect" title=" " alt="" coords="1098,80,1161,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRocket.html">Rocket</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clase que define el entorno del cohete.  <a href="classRocket.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+defines</h2></td></tr>
+<tr class="memitem:a167d2c0ec9b943d55f2124f7442b2f6d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a167d2c0ec9b943d55f2124f7442b2f6d">g</a>&#160;&#160;&#160;9.81</td></tr>
+<tr class="separator:a167d2c0ec9b943d55f2124f7442b2f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b4a835e6d6d501a72ce7ad4ce709b86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a6b4a835e6d6d501a72ce7ad4ce709b86">theta_max</a>&#160;&#160;&#160;0.523598776</td></tr>
+<tr class="memdesc:a6b4a835e6d6d501a72ce7ad4ce709b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ángulo máximo de inclinación del cohete (rad)  <a href="rocket_8cpp.html#a6b4a835e6d6d501a72ce7ad4ce709b86">Más...</a><br /></td></tr>
+<tr class="separator:a6b4a835e6d6d501a72ce7ad4ce709b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7df89a850d4f90bca06ee38e42aafba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#ad7df89a850d4f90bca06ee38e42aafba">v_0_x</a>&#160;&#160;&#160;2.0</td></tr>
+<tr class="memdesc:ad7df89a850d4f90bca06ee38e42aafba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocidad inicial en x.  <a href="rocket_8cpp.html#ad7df89a850d4f90bca06ee38e42aafba">Más...</a><br /></td></tr>
+<tr class="separator:ad7df89a850d4f90bca06ee38e42aafba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a406b0c79820da9382c11a35c4e288e8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a406b0c79820da9382c11a35c4e288e8e">v_0_y</a>&#160;&#160;&#160;2.0</td></tr>
+<tr class="memdesc:a406b0c79820da9382c11a35c4e288e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocidad inicial en y.  <a href="rocket_8cpp.html#a406b0c79820da9382c11a35c4e288e8e">Más...</a><br /></td></tr>
+<tr class="separator:a406b0c79820da9382c11a35c4e288e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a04712ae480d19d6c76840a854ad641"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a4a04712ae480d19d6c76840a854ad641">phi_0</a>&#160;&#160;&#160;acos(-1)/36.0</td></tr>
+<tr class="memdesc:a4a04712ae480d19d6c76840a854ad641"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ángulo inicial pequeño aleatorio.  <a href="rocket_8cpp.html#a4a04712ae480d19d6c76840a854ad641">Más...</a><br /></td></tr>
+<tr class="separator:a4a04712ae480d19d6c76840a854ad641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac211cae81e58c18eeccddfd8e9aa46dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#ac211cae81e58c18eeccddfd8e9aa46dc">x_range</a>&#160;&#160;&#160;1.5</td></tr>
+<tr class="memdesc:ac211cae81e58c18eeccddfd8e9aa46dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rango de posición inicial en x.  <a href="rocket_8cpp.html#ac211cae81e58c18eeccddfd8e9aa46dc">Más...</a><br /></td></tr>
+<tr class="separator:ac211cae81e58c18eeccddfd8e9aa46dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c012d15f65d23939a8bcd30e28a1943"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a8c012d15f65d23939a8bcd30e28a1943">y_range</a>&#160;&#160;&#160;1.5</td></tr>
+<tr class="memdesc:a8c012d15f65d23939a8bcd30e28a1943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rango de posición inicial en y.  <a href="rocket_8cpp.html#a8c012d15f65d23939a8bcd30e28a1943">Más...</a><br /></td></tr>
+<tr class="separator:a8c012d15f65d23939a8bcd30e28a1943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250367a2f6340eeaeb32aef65776ed37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a250367a2f6340eeaeb32aef65776ed37">phi_max</a>&#160;&#160;&#160;acos(-1)/3.0</td></tr>
+<tr class="memdesc:a250367a2f6340eeaeb32aef65776ed37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Límite absoluto de inclinación.  <a href="rocket_8cpp.html#a250367a2f6340eeaeb32aef65776ed37">Más...</a><br /></td></tr>
+<tr class="separator:a250367a2f6340eeaeb32aef65776ed37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28eaddd2dd8ad1ee68b4217c7dde0842"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a28eaddd2dd8ad1ee68b4217c7dde0842">area</a>&#160;&#160;&#160;10</td></tr>
+<tr class="memdesc:a28eaddd2dd8ad1ee68b4217c7dde0842"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tamaño del área de simulación.  <a href="rocket_8cpp.html#a28eaddd2dd8ad1ee68b4217c7dde0842">Más...</a><br /></td></tr>
+<tr class="separator:a28eaddd2dd8ad1ee68b4217c7dde0842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53bce34f48ba000365c0cb26e38b325"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#af53bce34f48ba000365c0cb26e38b325">FINISH_PENALIZATION</a>&#160;&#160;&#160;-700.0</td></tr>
+<tr class="memdesc:af53bce34f48ba000365c0cb26e38b325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Penalización al terminar fuera del área.  <a href="rocket_8cpp.html#af53bce34f48ba000365c0cb26e38b325">Más...</a><br /></td></tr>
+<tr class="separator:af53bce34f48ba000365c0cb26e38b325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0798930ec61c71a5ebea027d6b87714"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#aa0798930ec61c71a5ebea027d6b87714">steps_actualization</a>&#160;&#160;&#160;50</td></tr>
+<tr class="memdesc:aa0798930ec61c71a5ebea027d6b87714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Número de pasos internos de Runge-Kutta.  <a href="rocket_8cpp.html#aa0798930ec61c71a5ebea027d6b87714">Más...</a><br /></td></tr>
+<tr class="separator:aa0798930ec61c71a5ebea027d6b87714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+typedefs</h2></td></tr>
+<tr class="memitem:a225ffdf1357f3d2cf9054418b4e4f1c9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a225ffdf1357f3d2cf9054418b4e4f1c9">myclock</a> = chrono::high_resolution_clock</td></tr>
+<tr class="separator:a225ffdf1357f3d2cf9054418b4e4f1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a7762e4c5547bfef0d5c0ddf85661c65c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rocket_8cpp.html#a7762e4c5547bfef0d5c0ddf85661c65c">PYBIND11_MODULE</a> (<a class="el" href="classRocket.html">Rocket</a>, m, py::mod_gil_not_used())</td></tr>
+<tr class="separator:a7762e4c5547bfef0d5c0ddf85661c65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p >Implementación del entorno de cohete para entrenamiento con DQN. </p>
+<p >Este archivo define la clase <a class="el" href="classRocket.html" title="Clase que define el entorno del cohete.">Rocket</a> que simula un cohete controlable mediante acciones discretas. Se implementa la integración numérica mediante el método Runge-Kutta de cuarto orden. La clase está expuesta a Python usando pybind11. </p>
+</div><h2 class="groupheader">Documentación de los 'defines'</h2>
+<a id="a28eaddd2dd8ad1ee68b4217c7dde0842" name="a28eaddd2dd8ad1ee68b4217c7dde0842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28eaddd2dd8ad1ee68b4217c7dde0842">&#9670;&nbsp;</a></span>area</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define area&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tamaño del área de simulación. </p>
+
+</div>
+</div>
+<a id="af53bce34f48ba000365c0cb26e38b325" name="af53bce34f48ba000365c0cb26e38b325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af53bce34f48ba000365c0cb26e38b325">&#9670;&nbsp;</a></span>FINISH_PENALIZATION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FINISH_PENALIZATION&#160;&#160;&#160;-700.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Penalización al terminar fuera del área. </p>
+
+</div>
+</div>
+<a id="a167d2c0ec9b943d55f2124f7442b2f6d" name="a167d2c0ec9b943d55f2124f7442b2f6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a167d2c0ec9b943d55f2124f7442b2f6d">&#9670;&nbsp;</a></span>g</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define g&#160;&#160;&#160;9.81</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a04712ae480d19d6c76840a854ad641" name="a4a04712ae480d19d6c76840a854ad641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a04712ae480d19d6c76840a854ad641">&#9670;&nbsp;</a></span>phi_0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define phi_0&#160;&#160;&#160;acos(-1)/36.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ángulo inicial pequeño aleatorio. </p>
+
+</div>
+</div>
+<a id="a250367a2f6340eeaeb32aef65776ed37" name="a250367a2f6340eeaeb32aef65776ed37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a250367a2f6340eeaeb32aef65776ed37">&#9670;&nbsp;</a></span>phi_max</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define phi_max&#160;&#160;&#160;acos(-1)/3.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Límite absoluto de inclinación. </p>
+
+</div>
+</div>
+<a id="aa0798930ec61c71a5ebea027d6b87714" name="aa0798930ec61c71a5ebea027d6b87714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0798930ec61c71a5ebea027d6b87714">&#9670;&nbsp;</a></span>steps_actualization</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define steps_actualization&#160;&#160;&#160;50</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Número de pasos internos de Runge-Kutta. </p>
+
+</div>
+</div>
+<a id="a6b4a835e6d6d501a72ce7ad4ce709b86" name="a6b4a835e6d6d501a72ce7ad4ce709b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b4a835e6d6d501a72ce7ad4ce709b86">&#9670;&nbsp;</a></span>theta_max</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define theta_max&#160;&#160;&#160;0.523598776</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ángulo máximo de inclinación del cohete (rad) </p>
+
+</div>
+</div>
+<a id="ad7df89a850d4f90bca06ee38e42aafba" name="ad7df89a850d4f90bca06ee38e42aafba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7df89a850d4f90bca06ee38e42aafba">&#9670;&nbsp;</a></span>v_0_x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define v_0_x&#160;&#160;&#160;2.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Velocidad inicial en x. </p>
+
+</div>
+</div>
+<a id="a406b0c79820da9382c11a35c4e288e8e" name="a406b0c79820da9382c11a35c4e288e8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a406b0c79820da9382c11a35c4e288e8e">&#9670;&nbsp;</a></span>v_0_y</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define v_0_y&#160;&#160;&#160;2.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Velocidad inicial en y. </p>
+
+</div>
+</div>
+<a id="ac211cae81e58c18eeccddfd8e9aa46dc" name="ac211cae81e58c18eeccddfd8e9aa46dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac211cae81e58c18eeccddfd8e9aa46dc">&#9670;&nbsp;</a></span>x_range</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define x_range&#160;&#160;&#160;1.5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rango de posición inicial en x. </p>
+
+</div>
+</div>
+<a id="a8c012d15f65d23939a8bcd30e28a1943" name="a8c012d15f65d23939a8bcd30e28a1943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c012d15f65d23939a8bcd30e28a1943">&#9670;&nbsp;</a></span>y_range</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define y_range&#160;&#160;&#160;1.5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rango de posición inicial en y. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los 'typedefs'</h2>
+<a id="a225ffdf1357f3d2cf9054418b4e4f1c9" name="a225ffdf1357f3d2cf9054418b4e4f1c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a225ffdf1357f3d2cf9054418b4e4f1c9">&#9670;&nbsp;</a></span>myclock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="rocket_8cpp.html#a225ffdf1357f3d2cf9054418b4e4f1c9">myclock</a> =  chrono::high_resolution_clock</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a id="a7762e4c5547bfef0d5c0ddf85661c65c" name="a7762e4c5547bfef0d5c0ddf85661c65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7762e4c5547bfef0d5c0ddf85661c65c">&#9670;&nbsp;</a></span>PYBIND11_MODULE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PYBIND11_MODULE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRocket.html">Rocket</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">m&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">py::mod_gil_not_used()&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Hace referencia a <a class="el" href="classRocket.html#a10042e3d7096df86f115a4873dd614c0">Rocket::reset()</a>, <a class="el" href="classRocket.html#a5a5109a3e8b71b75da9f12910d740293">Rocket::sample()</a> y <a class="el" href="classRocket.html#aee5b20f19b1ed93d6840cb2700b06294">Rocket::step()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas para esta función:</div>
+<div class="dyncontent">
+<div class="center"><img src="rocket_8cpp_a7762e4c5547bfef0d5c0ddf85661c65c_cgraph.png" border="0" usemap="#arocket_8cpp_a7762e4c5547bfef0d5c0ddf85661c65c_cgraph" alt=""/></div>
+<map name="arocket_8cpp_a7762e4c5547bfef0d5c0ddf85661c65c_cgraph" id="arocket_8cpp_a7762e4c5547bfef0d5c0ddf85661c65c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,56,156,83"/>
+<area shape="rect" href="classRocket.html#a10042e3d7096df86f115a4873dd614c0" title="Reinicia el entorno con valores aleatorios." alt="" coords="212,5,319,32"/>
+<area shape="rect" href="classRocket.html#a5a5109a3e8b71b75da9f12910d740293" title="Devuelve una acción aleatoria." alt="" coords="204,56,327,83"/>
+<area shape="rect" href="classRocket.html#aee5b20f19b1ed93d6840cb2700b06294" title="Avanza un paso de simulación dado la acción." alt="" coords="214,107,317,133"/>
+<area shape="rect" href="classRocket.html#afe37c8be4a5d8bc54777a6805cd2b1c0" title="Comprueba si el cohete sigue dentro del área válida y con ángulo permitido." alt="" coords="391,77,503,104"/>
+<area shape="rect" href="classRocket.html#a1cb536a4cdcbb5a483c76acacd4b71ea" title="Calcula las derivadas del sistema para un paso de Runge&#45;Kutta." alt="" coords="375,129,520,170"/>
+<area shape="rect" href="classRocket.html#ae2656c26b5fea56fadf13ede740b79cc" title="Calcula el efecto de la rotación del motor sobre el ángulo." alt="" coords="568,136,673,163"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_df511e5bd85cec96854b39d5e1c27aa8.html">cpp</a></li><li class="navelem"><a class="el" href="rocket_8cpp.html">rocket.cpp</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+  </ul>
+</div>
+</body>
+</html>

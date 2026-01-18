@@ -1,0 +1,5 @@
+<map id="Rocket::check" name="Rocket::check">
+<area shape="rect" id="node1" title="Comprueba si el cohete sigue dentro del área válida y con ángulo permitido." alt="" coords="355,5,467,32"/>
+<area shape="rect" id="node2" href="$classRocket.html#aee5b20f19b1ed93d6840cb2700b06294" title="Avanza un paso de simulación dado la acción." alt="" coords="204,5,307,32"/>
+<area shape="rect" id="node3" href="$rocket_8cpp.html#a7762e4c5547bfef0d5c0ddf85661c65c" title=" " alt="" coords="5,5,156,32"/>
+</map>
