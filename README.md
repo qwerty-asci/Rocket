@@ -65,25 +65,22 @@ A recommended project layout for clarity and maintainability:
 
 
 ```text
-rocket-dqn/
+Rocket/
 │
 ├── setup.py                  # Setup script to compile the C++ shared library
 ├── Makefile                  # Build commands for library and docs
 ├── requirements.txt          # Python dependencies
 ├── cpp/                      # C++ source files
-│   ├── rocket.cpp             # Core environment implementation
-│   └── rocket.h               # (Optional) Header file for definitions
-├── python/                   # Optional Python helpers or wrappers
-│   └── rocket_env.py          # Python interface / helpers
+│   └── rocket.cpp            # Core environment implementation
 ├── notebooks/                # Jupyter notebooks for training & testing
 │   └── rocket.ipynb
 ├── models/                   # Saved neural network checkpoints
 │   └── net.pth
 ├── build/                    # Output folder for compiled shared library
-│   └── Rocket.so              # Compiled Python module
+│   └── Rocket.so             # Compiled Python module
 ├── docs/                     # Documentation generated with Doxygen
 │   └── html/
-└── animacion5.gif            # Example animation of the trained rocket
+└── animaciones               # Examples animations of the trained rocket
 ```
 
 
