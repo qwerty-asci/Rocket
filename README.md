@@ -2,7 +2,7 @@
 
 Development of an environment for training a neural network using reinforcement learning to control a rocket with unlimited fuel by adjusting the nozzle orientation and activating or deactivating the rocket ignition.
 
-The environment is designed to train an agent to maintain the rocket close to the origin of the coordinate system by adjusting the nozzle orientation, $\theta$, which is limited to a maximum angle of $\frac{\pi}{6}$. The system dynamics are simulated by numerically solving the equations of motion using a fixed-step fourth-order Runge–Kutta (RK4) method. The generalized coordinates chosen are the position of the center of mass, $\overrightarrow{r}_{CM} = (x, y)$, and the rotation of the rocket about its center of mass, $\phi$.
+The environment is designed to train an agent to maintain the rocket close to the origin of the coordinate system by adjusting the nozzle orientation, $\theta$, which is limited to a maximum angle of $\frac{\pi}{6}$. The system dynamics are simulated by numerically solving the equations of motion using a fixed-step fourth-order Runge–Kutta (RK4) method. The generalized coordinates chosen are the position of the center of mass, $\overrightarrow{r}_{CM}=(x,y)$, and the rotation of the rocket about its center of mass, $\phi$.
 
 The external force $F(t)$ corresponds to the thrust produced by the rocket when the ignition is activated. It is modeled as a constant force that is switched on and off depending on the ignition state. The agent can also change the orientation of the nozzle to control the direction in which the thrust acts, thereby controlling the rocket’s motion.
 
